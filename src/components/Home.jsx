@@ -10,7 +10,7 @@ function Home() {
     const [response,setResponse]=useState([])
     const postGenorator =async(data,app)=>{
         const url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
-        const apiKey = '';
+        const apiKey = 'AIzaSyD03TbF2I4o2_zRGS5zGBpJ9-BnfgBY4W0';
         const payload = {
         contents: [
             {
