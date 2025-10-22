@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Show from './Show'
 import Loding from './Loding'
-import GOOGLEAPIKEY =import.meta.env.GOOGLEAPIKEY
+const GOOGLEAPIKEY = import.meta.env.VITE_GOOGLEAPIKEY;
 function Home() {
     const  [loding,setLoding] =useState(false)
     const [data,setData]=useState({
